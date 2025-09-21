@@ -1,5 +1,6 @@
 from demographic_data_analyzer import calculate_demographic_data
 
+
 print("Testing demographic data analyzer...")
 print("=" * 50)
 
@@ -9,7 +10,9 @@ try:
     print("\n" + "=" * 50)
     print("SUCCESS: All calculations completed!")
     print("=" * 50)
-        print("\nReturned values:")
+    
+    # Display returned values for verification
+    print("\nReturned values:")
     print("-" * 30)
     for key, value in result.items():
         print(f"{key}: {value}")
